@@ -627,7 +627,7 @@ class VocabReport(object):
   		# first classes, then properties
   		eg = """<div class="specterm" id="%s" about="%s" typeof="%s">
   			<h3>%s: %s</h3> 
-  			<em property="rdfs:label" >%s</em> - <span property="rdfs:comment" >%s</span> <br /><table style="th { float: top; }">
+  			<em property="rdfs:label" >%s</em> - <span property="rdfs:comment" >%s</span> <br /><table class="table table-striped">
   			<tr><th>Status:</th>
   			<td><span property="vs:status" >%s</span></td></tr>
   			%s
@@ -641,7 +641,7 @@ class VocabReport(object):
   		# for individuals
   		ig = """<div class="specterm" id="%s" about="%s" typeof="%s">
   			<h3>%s: %s</h3> 
-  			<em property="dc:title" >%s</em> - <span property="dc:description" >%s</span> <br /><table style="th { float: top; }">
+  			<em property="dc:title" >%s</em> - <span property="dc:description" >%s</span> <br /><table class="table table-striped"">
   			<tr><th>Status:</th>
   			<td><span property="vs:status" >%s</span></td></tr>
   			%s
